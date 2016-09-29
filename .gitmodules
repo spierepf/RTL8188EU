@@ -1,0 +1,3 @@
+[submodule "rtl8188eu"]
+	path = rtl8188eu
+	url = git://github.com/lwfinger/rtl8188eu
