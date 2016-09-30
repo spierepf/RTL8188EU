@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install build-essential linux-headers-generic git
+sudo apt-get install build-essential linux-headers-`uname -r` git
 
 git submodule update --init --recursive
 pushd rtl8188eu
